@@ -21,7 +21,7 @@ class ContributingFactorChart extends Component {
             }
         };
 
-        const response = await axios.get('http://35.193.23.202:9200/accident/_search', {
+        const response = await axios.get('http://104.197.142.132:9200/accident/_search', {
             params: {
                 source: JSON.stringify(query),
                 source_content_type: 'application/json'

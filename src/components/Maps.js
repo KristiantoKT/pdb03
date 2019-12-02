@@ -59,7 +59,7 @@ export default class Maps extends Component {
         }
       }]
     }
-    await axios.get('http://35.193.23.202:9200/accident/_search?size=250', {
+    await axios.get('http://104.197.142.132:9200/accident/_search?size=250', {
       params: {
         source: JSON.stringify(query),
         source_content_type: 'application/json'

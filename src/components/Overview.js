@@ -13,7 +13,7 @@ export default class Overview extends Component {
 	}
 	
 	getTotalData = async () => {
-		const response = await axios.get('http://35.193.23.202:9200/accident/_search');
+		const response = await axios.get('http://104.197.142.132:9200/accident/_search');
 		this.setState({
 			totalData: response.data.hits.total.value
 		});

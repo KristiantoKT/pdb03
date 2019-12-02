@@ -34,7 +34,7 @@ class Searching extends Component {
 							<h2 className="page-title">Crash Data Search</h2>
 						</div>
 					</div>
-					<ReactiveBase app="accident" url="http://35.193.23.202:9200" 
+					<ReactiveBase app="accident" url="http://104.197.142.132:9200" 
 					theme={{
 						typography: {
 							fontFamily:
